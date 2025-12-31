@@ -1,0 +1,55 @@
+.dashboardBlock {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  background-color: #9598b1;
+}
+
+.headerTitle h1 {
+  font-size: 34px;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.contentPadding {
+  padding: 40px 32px;
+}
+
+.statsSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 48px;
+}
+
+.tableSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: white;
+  border-radius: 20px;
+}
+
+.errorBanner {
+  background-color: #fee2e2;
+  color: #ef4444;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+

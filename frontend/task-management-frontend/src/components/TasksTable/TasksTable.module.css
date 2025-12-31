@@ -1,0 +1,136 @@
+.tasksContainer {
+  width: 100%;
+}
+
+.tableHeaderActions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+}
+
+.addBtn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tableWrapper {
+  width: 100%;
+  background: white;
+  border-radius: 16px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th {
+  padding: 16px 20px;
+  background-color: #f8fafc;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.row {
+  border-bottom: 1px solid #f1f5f9;
+  cursor: pointer;
+}
+
+.row:hover {
+  background-color: #f8fafc;
+}
+
+.table td {
+  padding: 16px 20px;
+  vertical-align: middle;
+}
+
+.taskTitle {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.dateCell {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.userColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  font-weight: 500;
+  color: #334155;
+}
+
+.userContact {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.badge {
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.high { background: #fee2e2; color: #ef4444; }
+.medium { background: #fef3c7; color: #d97706; }
+.low { background: #dcfce7; color: #10b981; }
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.editBtn { color: #3b82f6; }
+.deleteBtn { color: #ef4444; }
+
+.emptyState {
+  text-align: center;
+  padding: 40px;
+  color: #94a3b8;
+}
+
+.statusBadge {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.new {
+  background-color: #eaf1f8;
+  color: #64748b;
+}
+
+.inprogress {
+  background-color: #e0f2fe;
+  color: #0284c7;
+}
+
+.completed {
+  background-color: #dcfce7;
+  color: #15803d;
+}

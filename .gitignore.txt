@@ -1,0 +1,15 @@
+# Visual Studio files
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+
+# Node.js files
+node_modules/
+dist/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
