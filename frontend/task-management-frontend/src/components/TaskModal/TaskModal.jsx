@@ -156,7 +156,9 @@ const TaskModal = ({ isOpen, onClose, initialEditMode }) => {
               <label>Full Name *</label>
               <input 
                 className={errors.userFullName ? styles.inputError : ''}
-                type="text" disabled={!isEditing} value={formData.userFullName}
+                type="text" 
+                disabled={!isEditing || !!selectedTask} 
+                value={formData.userFullName}
                 onChange={(e) => setFormData({...formData, userFullName: e.target.value})}
               />
             </div>
@@ -165,7 +167,9 @@ const TaskModal = ({ isOpen, onClose, initialEditMode }) => {
                 <label>Phone *</label>
                 <input 
                   className={errors.userPhone ? styles.inputError : ''}
-                  type="tel" disabled={!isEditing} value={formData.userPhone}
+                  type="tel" 
+                  disabled={!isEditing || !!selectedTask} 
+                  value={formData.userPhone}
                   onChange={(e) => setFormData({...formData, userPhone: e.target.value})}
                 />
               </div>
@@ -173,7 +177,9 @@ const TaskModal = ({ isOpen, onClose, initialEditMode }) => {
                 <label>Email *</label>
                 <input 
                   className={errors.userEmail ? styles.inputError : ''}
-                  type="email" disabled={!isEditing} value={formData.userEmail}
+                  type="email" 
+                  disabled={!isEditing || !!selectedTask} 
+                  value={formData.userEmail}
                   onChange={(e) => setFormData({...formData, userEmail: e.target.value})}
                 />
               </div>

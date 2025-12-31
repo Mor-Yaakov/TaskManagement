@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using TaskManagement.Api.Dtos.UserDetails;
 using TaskManagement.Api.Models;
 
 namespace TaskManagement.Api.Dtos.TaskItem

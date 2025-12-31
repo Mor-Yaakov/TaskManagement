@@ -146,3 +146,4 @@ C:\Users\morya\source\repos\TaskManagement\backend\TaskManagement\TaskManagement
 C:\Users\morya\source\repos\TaskManagement\backend\TaskManagement\TaskManagement.Api\obj\Debug\net8.0\TaskManagement.Api.pdb
 C:\Users\morya\source\repos\TaskManagement\backend\TaskManagement\TaskManagement.Api\obj\Debug\net8.0\TaskManagement.Api.genruntimeconfig.cache
 C:\Users\morya\source\repos\TaskManagement\backend\TaskManagement\TaskManagement.Api\obj\Debug\net8.0\ref\TaskManagement.Api.dll
+C:\Users\morya\source\repos\TaskManagement\backend\TaskManagement\TaskManagement.Api\obj\Debug\net8.0\TaskManagement.Api.sourcelink.json
